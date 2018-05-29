@@ -24,7 +24,7 @@
   "homepage": "https://github.com/kamil-mrzyglod/BattleSheet#readme",
   "dependencies": {
     "spectre.css": "^0.5.1",
-    "axios": "^0.17.1",
+    "axios": "^0.18.0",
     "prop-types": "^15.6.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
