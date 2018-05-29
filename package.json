@@ -1,0 +1,48 @@
+{
+  "name": "battlesheet",
+  "version": "1.0.0",
+  "description": "Battle sheet for Warhammer: Age of Sigmar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "grunt",
+    "build": "grunt build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamil-mrzyglod/BattleSheet.git"
+  },
+  "keywords": [
+    "js",
+    "sigmar"
+  ],
+  "author": "Kamil Mrzyglod",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kamil-mrzyglod/BattleSheet/issues"
+  },
+  "homepage": "https://github.com/kamil-mrzyglod/BattleSheet#readme",
+  "dependencies": {
+    "spectre.css": "^0.5.1",
+    "axios": "^0.17.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-google-maps": "^9.4.5",
+    "react-router-dom": "^4.2.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "connect-modrewrite": "^0.10.2",
+    "grunt": "^1.0.2",
+    "grunt-babel": "^7.0.0",
+    "grunt-browserify": "^5.3.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.1"
+  }
+}
