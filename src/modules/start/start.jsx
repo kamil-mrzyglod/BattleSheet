@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export class Start extends React.Component {
 
     render() {
@@ -5,17 +7,14 @@ export class Start extends React.Component {
             <div className="container">
                 <div className="columns">
                     <div className="col-8 col-mx-auto text-center">
-                        <h1>Battle Sheet</h1>
+                        <Link to="new">
+                            <button className="btn btn-primary btn-lg btn-block">New battle</button>
+                        </Link>
                     </div>
                 </div>
                 <div className="columns">
                     <div className="col-8 col-mx-auto text-center">
-                        <button class="btn btn-primary btn-lg btn-block">New battle</button>
-                    </div>
-                </div>
-                <div className="columns">
-                    <div className="col-8 col-mx-auto text-center">
-                        <button class="btn btn-lg disabled btn-block">Load previous</button>
+                        <button className="btn btn-lg disabled btn-block">Load previous</button>
                     </div>
                 </div>
             </div>);

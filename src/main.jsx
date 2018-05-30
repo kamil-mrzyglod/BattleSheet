@@ -8,8 +8,14 @@ export class Main extends React.Component {
         return (<BrowserRouter>
             <div className="container">
                 <div className="columns">
+                    <div className="col-8 col-mx-auto text-center">
+                        <h1>Battle Sheet</h1>
+                    </div>
+                </div>
+                <div className="columns">
                     <div className="column col-12">
-                        <Route path="/" component={modules.Start} />
+                        <Route exact path="/" component={modules.Start} />
+                        <Route exact path="/new" component={modules.NewBattle} />
                     </div>
                 </div>
             </div>
